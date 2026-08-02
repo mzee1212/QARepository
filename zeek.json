@@ -1,0 +1,45 @@
+{
+  "cookies": [
+    {
+      "name": "Loggedin",
+      "value": "True",
+      "domain": "zeeko11-trials8101.orangehrmlive.com",
+      "path": "/auth",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "orangehrmSecurityAuthentication_LoginLocationTracker",
+      "value": "21232f297a57a5a743894a0e4a801fc3",
+      "domain": "zeeko11-trials8101.orangehrmlive.com",
+      "path": "/",
+      "expires": 1819720086.540276,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "orangehrm",
+      "value": "pg1e9qch9cgo246582vqt5no783vq4pqs66jhgvf7kd7p878ki9d3eof9kf63c7fvoqmqd9n3jr9cir23u6hc31joti2f4mbtfeh2f6hg296aereo94mbgjs73oj7mq7",
+      "domain": "zeeko11-trials8101.orangehrmlive.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "navigation_log_latest_url",
+      "value": "%2Fauth%2Flogin",
+      "domain": "zeeko11-trials8101.orangehrmlive.com",
+      "path": "/",
+      "expires": 1785246486.5407,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
