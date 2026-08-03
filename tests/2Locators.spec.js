@@ -3,7 +3,7 @@ import {test,expect}  from "@playwright/test"
 test("Locatorsto be tested in the PW Framework", async({page})=>
 {
    
-    const userName = page.locator("input#username")
+    const userName = page.locator("put#username")
     const password = page.locator("input#password")
     const signIn = page.locator("input#signInBtn")
     const cardTitles = page.locator("[class='card-body'] a")
