@@ -1,6 +1,6 @@
 import {test,expect}  from "@playwright/test"
 
-test("Locators", async({page})=>
+test("Locatorsto be tested", async({page})=>
 {
    
     const userName = page.locator("input#username")
