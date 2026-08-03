@@ -1,6 +1,6 @@
 import {test,expect}  from "@playwright/test"
 
-test("Locatorsto be tested in the PW Framework", async({page})=>
+test("Locatorsto be tested in the PW framewiork", async({page})=>
 {
    
     const userName = page.locator("put#username")
