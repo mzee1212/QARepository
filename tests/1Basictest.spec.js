@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 test.describe.configure({mode:'parallel'})
 
-test('@Web PW basic Test123 changed', async({browser})=>
+test('@Web PW basic Test123 c23hanged', async({browser})=>
 {
   const context = await browser.newContext(); //new browser opens without any cookies/plugins
   const page = await context.newPage(); //new page is copened here
