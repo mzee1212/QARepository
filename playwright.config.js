@@ -21,12 +21,12 @@ const config =({
      timeout: 5000,   //given 5seconds as explicit tiemout for expect
   },
 
-  reporter : 'html', //to generate html reports
+  reporter : [['html'],['github']], //to generate html reports
 
   use:{
 
    browserName : 'chromium',
-   headless : false, // it means it will open the browser
+   headless : true, // it means it will open the browser
    screenshot: 'on', //captures sc for all the steps
    trace: 'on',
    ignoreHttpsError : true,
