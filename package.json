@@ -13,13 +13,16 @@
   "scripts": {
     "Regression": "npx playwright test",
     "webTests": "npx playwright test --grep @Web",
-    "Apitests": "npx playwright test --grep @API"
+    "Apitests": "npx playwright test --grep @API",
+    "mcp:server": "node mcp-server.js"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "exceljs": "^4.4.0",
     "playwright": "^1.61.0",
     "playwright-core": "^1.61.0",
-    "undici-types": "^8.3.0"
+    "undici-types": "^8.3.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@azure/identity": "^4.13.1",
