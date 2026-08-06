@@ -1,5 +1,5 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","4521","PW basic Test1","","2026-07-12","passed","2026-07-12","","1Basictest.spec.js","",""
 "","5514","@Web PW basic Test","","2026-07-12","passed","2026-07-12","","1Basictest.spec.js","",""
+"","4521","PW basic Test1","","2026-07-12","passed","2026-07-12","","1Basictest.spec.js","",""
 "","7572","Locators","","2026-07-12","passed","2026-07-12","","2Locators.spec.js","",""
 "","20567","Intercept request call","","2026-08-02","passed","2026-08-02","","16Networkmocking.spec.js","",""

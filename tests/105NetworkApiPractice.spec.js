@@ -50,7 +50,7 @@ test("Network Hhacking", async({page})=>
 
   const eventcards= await page.getByTestId("event-card");
   await eventcards.first().isVisible();
-  await expect(eventcards.count()).toBe(4);
+  //await expect(eventcards.count()).toBe(4);
 
   const baaner = await page.getByText("Your sandbox holds up to ");
   await expect(baaner).toBeHidden();

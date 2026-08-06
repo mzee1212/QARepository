@@ -15,13 +15,14 @@ import { report } from 'node:process';
  */
 const config =({
   testDir: './tests',
+  fullyParallel: true,
   timeout: 30*1000,//given 30econdss as explicit tiemout for each test step 
   expect:
   {
      timeout: 5000,   //given 5seconds as explicit tiemout for expect
   },
 
-  reporter : [['html'],['github']], //to generate html reports
+  reporter : [['html'],['github'],['blob']], //to generate html reports
 
   use:{
 
